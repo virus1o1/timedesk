@@ -8,7 +8,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import "./BigFooter.css";
-import Capture2 from "../images/Capture2.JPG";
+import Capture2 from "../../images/Capture2.JPG";
 
 function BigFooter() {
   return (

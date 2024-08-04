@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { FaUser, FaUserTie, FaUserFriends } from "react-icons/fa";
-import Button from "./Button";
+import Button from "../button/Button";
 import "./Features.css";
 
 function Features() {

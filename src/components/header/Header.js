@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import { FaChevronDown } from 'react-icons/fa';
-import logo from '../images/Capture.JPG';
+import logo from '../../images/Capture.JPG';
 import './Header.css';
 
 function Header() {

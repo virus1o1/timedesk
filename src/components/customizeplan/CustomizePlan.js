@@ -1,6 +1,6 @@
 import React from "react";
-import Dropdown from "./Dropdown";
-import Features from "./Features";
+import Dropdown from "../dropdown/Dropdown";
+import Features from "../features/Features";
 import "./CustomizePlanStyles.css";
 import { FaArrowLeft } from "react-icons/fa6";
 

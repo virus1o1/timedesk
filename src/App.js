@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/Header";
-import CustomizePlan from "./components/CustomizePlan";
+import Header from "./components/header/Header";
+import CustomizePlan from "./components/customizeplan/CustomizePlan";
 
-import BigFooter from "./components/BigFooter";
+import BigFooter from "./components/bigfooter/BigFooter";
 import "./App.css";
 import "@fontsource/poppins";
-import CurrentPlan from "./components/CurrentPlan";
+import CurrentPlan from "./components/currentplan/CurrentPlan";
 
 function App() {
   return (
