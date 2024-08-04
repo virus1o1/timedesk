@@ -1,0 +1,29 @@
+.btn-primary {
+  background-color: #4665ff;
+}
+
+.btn-secondary {
+  background-color: #eff5f5;
+  border: none;
+  color: #474848;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #000000;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.custom-arrow svg{
+  font-size: 25px;
+  fill: #294dff;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+}
