@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/timedesk/static/css/main.95b4ee86.css",
+    "main.js": "/timedesk/static/js/main.a4de70de.js",
+    "static/js/453.6c2de417.chunk.js": "/timedesk/static/js/453.6c2de417.chunk.js",
+    "static/media/Capture.JPG": "/timedesk/static/media/Capture.794eb9f20350852d0df7.JPG",
+    "static/media/poppins-latin-400-normal.woff": "/timedesk/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/timedesk/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/timedesk/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/Capture2.JPG": "/timedesk/static/media/Capture2.ff4e0a323efff95789cc.JPG",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/timedesk/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
+    "index.html": "/timedesk/index.html",
+    "main.95b4ee86.css.map": "/timedesk/static/css/main.95b4ee86.css.map",
+    "main.a4de70de.js.map": "/timedesk/static/js/main.a4de70de.js.map",
+    "453.6c2de417.chunk.js.map": "/timedesk/static/js/453.6c2de417.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95b4ee86.css",
+    "static/js/main.a4de70de.js"
+  ]
+}
