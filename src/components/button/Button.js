@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ButtonStyles.css';
 
-function Button({ label, checkbox }) {
+function Button({ label, checkbox, variant }) {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleClick = () => {
@@ -11,7 +11,7 @@ function Button({ label, checkbox }) {
   };
 
   return (
-    <button className="custom-button d-flex" onClick={handleClick}>
+    <button className={`custom-button d-flex align-items-md-center btn-${variant}`} onClick={handleClick}>
       {checkbox && (
         <input
           type="checkbox"
@@ -24,5 +24,6 @@ function Button({ label, checkbox }) {
     </button>
   );
 }
+
 
 export default Button;

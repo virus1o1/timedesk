@@ -27,3 +27,29 @@ hr {
   display: block;
   margin: 20px 0;
 }
+
+
+@media (max-width: 768px) {
+  .billing-btn-monthly::before {
+    content: "Monthly";
+  }
+  .billing-btn-quarterly::before {
+    content: "Quarterly";
+  }
+  .billing-btn-yearly::before {
+    content: "Yearly";
+  }
+
+  /* Hide the full text */
+  .billing-btn-monthly, .billing-btn-quarterly, .billing-btn-yearly {
+    font-size: 0;
+  }
+
+  /* Show the shortened text */
+  .billing-btn-monthly::before, .billing-btn-quarterly::before, .billing-btn-yearly::before {
+    font-size: 14px;
+  }
+  .btn {
+    width: 100%;
+  }
+}

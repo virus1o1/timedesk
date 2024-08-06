@@ -1,3 +1,31 @@
 .card {
-    background-color: #eff5f5;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1; /* Ensure the body takes up remaining space */
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center; /* Center button on small screens */
+  padding: 0.75rem 1.25rem;
+}
+
+.card-footer .w-100 {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right on medium and larger screens */
+}
+
+@media (max-width: 1024px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-footer {
+    justify-content: flex-end; /* Align footer content to the right on medium and larger screens */
+  }
 }

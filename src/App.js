@@ -10,7 +10,7 @@ import CurrentPlan from "./components/currentplan/CurrentPlan";
 function App() {
   return (
     <>
-      <div className="content-wrapper mb-2">
+      <div className="content-wrapper">
         <Header />
         <div className="container-fluid p-0 d-flex align-items-start">
           <div className="bg-white my-4 rounded-3">
@@ -20,8 +20,8 @@ function App() {
             <CurrentPlan/>
           </div>
         </div>
+          <BigFooter />
       </div>
-      <BigFooter />
     </>
   );
 }

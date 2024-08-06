@@ -20,17 +20,17 @@ function CustomizePlan() {
           <p className="fs-6 fw-bold">Choose Billing Type</p>
           <button
             label="Billed Monthly"
-            className="btn btn-primary px-4 py-2 me-4 mb-2 border-0"
+            className="btn btn-primary px-4 py-2 me-4 mb-2 border-0 billing-btn-monthly"
           >
             Billed Monthly
           </button>
           <button
             label="Billed Quarterly"
-            className="btn btn-secondary px-4 py-2 me-4 mb-2"
+            className="btn btn-secondary px-4 py-2 me-4 mb-2 billing-btn-quarterly"
           >
             Billed Quarterly
           </button>
-          <button label="Billed Yearly" className="btn btn-secondary px-4 py-2 mb-2">
+          <button label="Billed Yearly" className="btn btn-secondary px-4 py-2 mb-2 billing-btn-yearly">
             Billed Yearly
           </button>
         </div>

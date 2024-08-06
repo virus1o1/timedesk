@@ -12,36 +12,36 @@ import Capture2 from "../../images/Capture2.JPG";
 
 function BigFooter() {
   return (
-    <div children="d-flex justify-content-center align-items-center">
-      <footer className="footer py-5 px-5 text-light">
+    <div className="d-flex justify-content-center align-items-center w-100">
+      <footer className="footer py-5 px-5 text-light w-100">
         <div className="mx-4 p-2">
           <Row>
             <Col md={2}>
               <h5 className="fs-6 mb-4">Software</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Features overview</a>
+                  <a href="#features-overview">Features overview</a>
                 </li>
                 <li>
-                  <a href="#">Solutions</a>
+                  <a href="#solutions">Solutions</a>
                 </li>
                 <li>
-                  <a href="#">Free time tracking app</a>
+                  <a href="#tracking">Free time tracking app</a>
                 </li>
                 <li>
-                  <a href="#">Integrations</a>
+                  <a href="#integrations">Integrations</a>
                 </li>
                 <li>
-                  <a href="#">Download app</a>
+                  <a href="#download">Download app</a>
                 </li>
                 <li>
-                  <a href="#">Demo</a>
+                  <a href="#demo">Demo</a>
                 </li>
                 <li>
-                  <a href="#">Time tracking API</a>
+                  <a href="#time">Time tracking API</a>
                 </li>
                 <li>
-                  <a href="#">Request a feature</a>
+                  <a href="#request-feature">Request a feature</a>
                 </li>
               </ul>
             </Col>
@@ -49,16 +49,16 @@ function BigFooter() {
               <h5 className="fs-6 mb-4">Learning center</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Time tracking resources</a>
+                  <a href="#time">Time tracking resources</a>
                 </li>
                 <li>
-                  <a href="#">Workforce management resources</a>
+                  <a href="#workforce">Workforce management resources</a>
                 </li>
                 <li>
-                  <a href="#">Business resources</a>
+                  <a href="#business">Business resources</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#blog">Blog</a>
                 </li>
               </ul>
             </Col>
@@ -66,13 +66,13 @@ function BigFooter() {
               <h5 className="fs-6 mb-4">More</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Help Center</a>
+                  <a href="#help">Help Center</a>
                 </li>
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="#faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="#">Status</a>
+                  <a href="#status">Status</a>
                 </li>
               </ul>
             </Col>
@@ -80,22 +80,22 @@ function BigFooter() {
               <h5 className="fs-6 mb-4">Company</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">About us</a>
+                  <a href="#about">About us</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="#contact">Contact Us</a>
                 </li>
                 <li>
-                  <a href="#">Reviews</a>
+                  <a href="#reviews">Reviews</a>
                 </li>
                 <li>
-                  <a href="#">Customer stories</a>
+                  <a href="#customer">Customer stories</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="#careers">Careers</a>
                 </li>
                 <li>
-                  <a href="#">Press</a>
+                  <a href="#press">Press</a>
                 </li>
               </ul>
             </Col>
@@ -125,13 +125,13 @@ function BigFooter() {
             </div>
 
             <div className="footer-links w-25 ps-3">
-              <a href="#" className="me-3">
+              <a href="#terms" className="me-3">
                 Terms
               </a>
-              <a href="#" className="me-3">
+              <a href="#privacy" className="me-3">
                 Privacy
               </a>
-              <a href="#">GDPR compliance</a>
+              <a href="#compliance">GDPR compliance</a>
             </div>
           </footer>
         </div>

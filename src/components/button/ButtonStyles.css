@@ -25,3 +25,10 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  @media (max-width: 480px) {
+    .custom-checkbox {
+        align-self: center;
+    }
+  }
+

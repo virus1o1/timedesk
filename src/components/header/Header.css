@@ -1,3 +1,4 @@
+/* General styling for nav items and links */
 .nav-links .nav-link {
   margin-right: 20px;
   font-size: 18px;
@@ -24,10 +25,34 @@
 }
 
 .nav-links .dropdown-toggle[aria-expanded="true"] {
-  background-color: transparent;
+  background-color: #ff9458;
   border: none;
 }
 
+
+.nav-links .dropdown-menu {
+  background-color: #f9fbff;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-links .dropdown-item {
+  color: #333;
+}
+
+.nav-links .dropdown-item:hover,
+.nav-links .dropdown-item:focus {
+  background-color: #ff9458;
+  color: #fff;
+}
+
+/* Ensure dropdown menu items have the correct background color when opened */
+.nav-links .dropdown-menu.show {
+  background-color: #f9fbff;
+}
+
+/* Styling for buttons */
 .btn-danger {
   border: none;
   border-radius: 16px;
@@ -43,15 +68,83 @@
 .custom-login-btn {
   border-radius: 16px;
   background: linear-gradient(#f9fbff, #f9fbff) padding-box,
-              linear-gradient(to bottom,  #ff5e29, #ff9458) border-box;
+              linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
   border: 1px solid transparent;
   color: #ff5e29;
   transition: ease-in 0s;
 }
 
-
 .custom-login-btn:hover {
   background: linear-gradient(#ff5e29, #ff9458) padding-box,
-              linear-gradient(to bottom,  #ff5e29, #ff9458) border-box;
+              linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
   color: #f9fbff;
+}
+
+/* Responsive styles */
+@media (min-width: 992px) {
+  .nav-bg {
+    display: flex;
+  }
+
+  .nav-item.active {
+    background-color: #ff9458;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-styles {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .nav-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    align-items: center;
+  }
+
+  .nav-bg {
+    background: #f9fbff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  }
+
+  .nav-item.active {
+    background-color: #ff9458;
+  }
+
+  .btn-group {
+    width: 100%;
+  }
+
+  .btn {
+    border-radius: 0;
+  }
+
+  .custom-login-btn {
+    margin: 10px 5px !important;
+  }
+
+  .btn-danger {
+    margin: 5px !important;
+    transition: ease-in 0s;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin: 10px;
+  }
 }
