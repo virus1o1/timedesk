@@ -29,3 +29,15 @@
     justify-content: flex-end; /* Align footer content to the right on medium and larger screens */
   }
 }
+
+@media (min-width: 1024px) {
+  .card-footer {
+    border-top: none;
+    background-color: transparent;
+  }
+}
+
+
+.custom-width {
+  max-width: 1366px;
+}

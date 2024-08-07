@@ -116,15 +116,15 @@ function BigFooter() {
             </Col>
           </Row>
           <footer className="mt-4 d-flex justify-content-between">
-            <div className="d-flex w-75">
-              <img src={Capture2} alt="Logo" className="footer-logo me-5 " />
+            <div className="d-flex w-75 copyright">
+              <img src={Capture2} alt="Logo" className="footer-logo me-5" />
               <div className="text-white">
                 <p className="mt-2 text-copy">Copyright © 2024 Netsoft Holdings, LLC</p>
                 <p className="text-copy">11650 Olio Road, Suite #1000 - 193 Fishers, IN 46037</p>
               </div>
             </div>
 
-            <div className="footer-links w-25 ps-3">
+            <div className="footer-links ps-3">
               <a href="#terms" className="me-3">
                 Terms
               </a>

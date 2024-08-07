@@ -29,7 +29,6 @@
   border: none;
 }
 
-
 .nav-links .dropdown-menu {
   background-color: #f9fbff;
   width: 100%;
@@ -47,7 +46,15 @@
   color: #fff;
 }
 
-/* Ensure dropdown menu items have the correct background color when opened */
+.nav-item a {
+  margin-right: 0 !important;
+}
+
+.nav-item:checked {
+  background-color: #ff9458;
+}
+
+/* Dropdown menu items have the correct background color when opened */
 .nav-links .dropdown-menu.show {
   background-color: #f9fbff;
 }
@@ -68,7 +75,7 @@
 .custom-login-btn {
   border-radius: 16px;
   background: linear-gradient(#f9fbff, #f9fbff) padding-box,
-              linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
+    linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
   border: 1px solid transparent;
   color: #ff5e29;
   transition: ease-in 0s;
@@ -76,8 +83,13 @@
 
 .custom-login-btn:hover {
   background: linear-gradient(#ff5e29, #ff9458) padding-box,
-              linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
+    linear-gradient(to bottom, #ff5e29, #ff9458) border-box;
   color: #f9fbff;
+}
+
+.custom-login-btn:active {
+  border: none !important;
+  color: #f9fbff !important;
 }
 
 /* Responsive styles */
@@ -86,8 +98,25 @@
     display: flex;
   }
 
-  .nav-item.active {
+  .nav-item:active {
+    background: #ff9458 !important;
+  }
+
+  .navbar-nav .nav-link:active {
+    transition: 0ms;
+    color: #f9fbff !important;
+  }
+
+  .dropdown-toggle[aria-expanded="true"] {
     background-color: #ff9458;
+    border: none;
+    color: #f9fbff !important;
+  }
+
+  .
+
+  .nav-item {
+    margin-right: 8px !important;
   }
 }
 

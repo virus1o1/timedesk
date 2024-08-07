@@ -28,7 +28,7 @@ function Features() {
   ];
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 custom-width">
       <h2 className="mb-4 fs-6 fw-bold">Choose Features</h2>
       {features.map((feature, index) => (
         <Card key={index} className="my-2 p-2 rounded-3 mb-4 d-flex">
